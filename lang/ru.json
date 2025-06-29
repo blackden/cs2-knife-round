@@ -1,0 +1,13 @@
+{
+    "chat.message.knife.prepare": "После разминки начнётся ножевой раунд. Победитель выбирает сторону команды",
+    "chat.message.knife.ignored": "Ножевой раунд пропущен — недостаточно игроков [{0} / {1} необходимо]",
+    "chat.message.knife.start": "Ножевой раунд! {nextline} Ножевой раунд! {nextline} Ножевой раунд!",
+    "chat.message.winner.team.ct": "Ножевой раунд завершён. Победила команда Counter-Terrorist",
+    "chat.message.winner.team.t": "Ножевой раунд завершён. Победила команда Terrorist",
+    "chat.message.winner.team.report": "----------------------[Отчёт]---------------------- {nextline} [Counter-Terrorist] {nextline} Выживших игроков: {0} | Общее здоровье: {1} {nextline} [Terrorist] {nextline} Выживших игроков: {2} | Общее здоровье: {3} {nextline} -------------------------------------------------------",
+    "chat.message.match.start": "Матч начался! {nextline} Матч начался! {nextline} Матч начался!",
+    "hud.message.kniferoundstarted": "<img src=\"https://raw.githubusercontent.com/oqyh/cs2-Knife-Round-GoldKingZ/main/Resources/knifeleft.png\" class=\"\"> <font color=\"orange\">Ножевой раунд <img src=\"https://raw.githubusercontent.com/oqyh/cs2-Knife-Round-GoldKingZ/main/Resources/kniferight.png\" class=\"\"></font> <br><br> <font color=\"blueviolet\">Победитель выберет сторону команды</font>",
+    "hud.message.winnerteam": "<font color=\"green\">Голосуйте за сторону</font> <br> <font color=\"darkred\">= Осталось времени для голосования: {0} сек =</font> <br> <font color=\"yellow\">!ct</font> <font color=\"grey\">— голос за команду CT</font> <br> <font color=\"yellow\">!t</font> <font color=\"grey\">— голос за команду T</font> <br> <font color=\"grey\">Голоса за <img src=\"https://raw.githubusercontent.com/oqyh/cs2-Knife-Round-GoldKingZ/main/Resources/ctimg.png\" class=\"\"> <font color=\"green\">[{1} / {3}]</font> <br> <font color=\"grey\">Голоса за <img src=\"https://raw.githubusercontent.com/oqyh/cs2-Knife-Round-GoldKingZ/main/Resources/timg.png\" class=\"\"> <font color=\"green\">[{2} / {3}]</font>",
+    "hud.message.loseteam.ct": "<font color=\"yellow\">Ожидание голосов от игроков команды T</font> <br> <font color=\"darkred\">= Осталось времени для голосования: {0} сек =</font>",
+    "hud.message.loseteam.t": "<font color=\"yellow\">Ожидание голосов от игроков команды CT</font> <br> <font color=\"darkred\">= Осталось времени для голосования: {0} сек =</font>"
+}
