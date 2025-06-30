@@ -1,4 +1,4 @@
-# [CS2] Knife-Round-GoldKingZ (1.1.5)
+# [CS2] Knife-Round
 
 Creates An Additional Round With Knifes After Warmup
 
@@ -19,7 +19,7 @@ Creates An Additional Round With Knifes After Warmup
 
 1. Download latest release
 2. Extract to `csgo` directory
-3. Configure `Knife-Round-GoldKingZ\config\config.json`
+3. Configure `Knife-Round\config\config.json`
 4. Restart server
 
 ---
@@ -27,7 +27,7 @@ Creates An Additional Round With Knifes After Warmup
 ## ⚙️ Configuration
 
 > [!NOTE]
-> Located In ..\Knife-Round-GoldKingZ\config\config.json                                           
+> Located In ..\Knife-Round\config\config.json                                           
 >
 
 | Property | Description | Values | Required |  
@@ -59,7 +59,7 @@ Creates An Additional Round With Knifes After Warmup
 ## 🌍 Language
 
 > [!NOTE]
-> Located In ..\Knife-Round-GoldKingZ\lang\en.json                                           
+> Located In ..\Knife-Round\lang\en.json                                           
 >
 
 <details>
@@ -82,13 +82,13 @@ Creates An Additional Round With Knifes After Warmup
 	//{nextline} = Print On Next Line
 	//==========================
 
-	"chat.message.knife.prepare": "{grey}[{green}Gold KingZ{grey}] After WarmUp Knife Round Will Start {green}Winner {grey}Choose Team Side",
-	"chat.message.knife.ignored": "{grey}[{green}Gold KingZ{grey}] Knife Round Ignored Less Players [{green}{0} {grey}/ {green}{1} {grey}Needed{grey}]",
-	"chat.message.knife.start": "{grey}[{green}Gold KingZ{grey}] {lime}Knife Round! {nextline} {grey}[{green}Gold KingZ{grey}] {lime}Knife Round! {nextline} {grey}[{green}Gold KingZ{grey}] {lime}Knife Round!",
-	"chat.message.winner.team.ct": "{grey}[{green}Gold KingZ{grey}] Knife Round End Winner Team {darkblue}CounterTerrorist",
-	"chat.message.winner.team.t": "{grey}[{green}Gold KingZ{grey}] Knife Round End Winner Team {darkred}Terrorist",
+	"chat.message.knife.prepare": " After WarmUp Knife Round Will Start {green}Winner {grey}Choose Team Side",
+	"chat.message.knife.ignored": " Knife Round Ignored Less Players [{green}{0} {grey}/ {green}{1} {grey}Needed{grey}]",
+	"chat.message.knife.start": " {lime}Knife Round! {nextline} {lime}Knife Round! {nextline} {lime}Knife Round!",
+	"chat.message.winner.team.ct": " Knife Round End Winner Team {darkblue}CounterTerrorist",
+	"chat.message.winner.team.t": " Knife Round End Winner Team {darkred}Terrorist",
 	"chat.message.winner.team.report": "{grey}----------------------{green}[Reports]{grey}---------------------- {nextline} {grey}{darkblue}[CounterTerrorist] {nextline} {grey}Total Alive Players: {yellow}{0} {grey}| Total Healths: {yellow}{1} {nextline} {grey}{darkred}[Terrorist] {nextline} {grey}Total Alive Players: {yellow}{2} {grey}| Total Healths: {yellow}{3} {nextline} {grey}-------------------------------------------------------",
-	"chat.message.match.start": "{grey}[{green}Gold KingZ{grey}] {lime}Match Live! {nextline} {grey}[{green}Gold KingZ{grey}] {lime}Match Live! {nextline} {grey}[{green}Gold KingZ{grey}] {lime}Match Live!",
+	"chat.message.match.start": " {lime}Match Live! {nextline}  {lime}Match Live! {nextline} {lime}Match Live!",
 
 	"hud.message.kniferoundstarted": "<img src='https://raw.githubusercontent.com/oqyh/cs2-Knife-Round-GoldKingZ/main/Resources/knifeleft.png' class=''> <font color='orange'>Knife Round <img src='https://raw.githubusercontent.com/oqyh/cs2-Knife-Round-GoldKingZ/main/Resources/kniferight.png' class=''> <br> <br> <font color='blueviolet'>Winner Will Choose Team Side </font>",
 
@@ -101,114 +101,5 @@ Creates An Additional Round With Knifes After Warmup
 	"hud.message.loseteam.t": "<font color='yellow'>Waitng For <font color='RoyalBlue'>CT's <font color='yellow'>To Vote <br> <font color='darkred'> = Time Left To Vote: {0} Secs = </font>"
 }
 ```
-
----
-
-## 📜 Changelog
-
-<details>
-<summary>📋 View Version History (Click to expand 🔽)</summary>
-
-### [1.1.5]
-- Fix Center Bug Duplicated
-- Fix Swap Teams Bug
-- Fix EnableDebug
-
-
-### [1.1.4]
-- Rework Plugin
-- Fix Knife Round Crash
-- Fix Method Dropping Weapons
-- Fix Give Armor On Knife Round
-- Fix After_Winning_Vote_Team_Side
-- Fix/Added FallBack Knife Round If Warmup Start Again 
-- Added Send_Winner_Team_To_CT
-- Added Get_Winner_Team
-- Added Block_Switching_Teams_On 3 Modes
-- Added Execute_Cfg_On_Warmup
-- Added Execute_Cfg_On_KnifeRound
-- Added Execute_Cfg_On_Voting
-- Added Execute_Cfg_On_MatchLive
-- Added EnableDebug
-- Added In config.json info on each what it do
-- Added In lang "chat.message.knife.prepare"
-- Added In lang "chat.message.winner.team.ct"
-- Added In lang "chat.message.winner.team.t"
-- Added In lang "chat.message.winner.team.report"
-
-### [1.1.3]
-- Rework On Less MinimumPlayers (Removed Restart)
-
-### [1.1.2]
-- Fix Plugin Will Stop Working On Next Map
-
-### [1.1.1]
-- Added MinimumPlayersToEnableKnifePlugin
-- Added CountBotsAsPlayers
-- Added Lang chat.message.knife.ignored 
-
-### [1.1.0]
-- Upgrade Net.7 To Net.8
-- Rework Knife-Round Plugin
-- Added EnableVoteTeamSideAfterWinning
-- Added CommandsInGameToVoteCT
-- Added CommandsInGameToVoteT
-- Added Lang chat.message.knife.start
-- Added Lang chat.message.match.start
-- Fix Remove Weapons
-- Fix FreezePlayersOnVoteStarted
-- Fix Lang HUD 
-
-### [1.0.9]
-- Fix Some Bugs
-- Added {19}IMAGE URL{20}
-
-### [1.0.8]
-- Fix Some Bugs
-- Fix Exploit Drop Gun Before Strip
-- Fix [Lunix] KnifeRoundTimer Carry To All Rounds
-
-### [1.0.7]
-- Fix Some Bugs
-- Fix Remove Gloves
-- Fix Remove Knifes
-
-### [1.0.6]
-- Fix Some Bugs
-- Added GiveArmorOnKnifeRound
-
-### [1.0.5]
-- Fix Some Bugs
-- Fix Windows Crash
-- Remove mp_force_pick_time
-
-### [1.0.4]
-- Fix Some Bugs
-- Rework Knife Round For Better
-- Added "AfterWinningRestartXTimes"
-
-### [1.0.3]
-- Fix Some Bugs
-- Fix Exploit Reconnect Spawn With Gun
-
-### [1.0.2]
-- Fix Some Bugs
-- Fix Exploit Droping Gun Before Round Start
-- Fix Exploit Late Join To Spawn With Gun
-- Fix Timer Carry 0 Timer to Next Map
-- Fix Team Winner Counting
-- Remove HLTV from Counting
-
-### [1.0.1]
-- Fix Crash
-- Fix Some Bugs
-- Fix When Timer Hit 0 With No Vote Will Skip
-- Added "MessageKnifeStartTimer"
-- Added Multiple Languages
-
-### [1.0.0]
-- Initial Release
-
-</details>
 
 ---
